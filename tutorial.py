@@ -4,16 +4,7 @@ app = Flask(__name__)
 
 @app.route("/<name>")
 def home(name):
-    return render_template("/index.html", content=["sd","bas","ds"])
-    # return "Hello Flask <h1>First page</h1>"
-
-# @app.route("/<name>")
-# def user(name):
-#     return f"Hello {name}!"
-
-# @app.route("/admin")
-# def admin():
-#     return redirect(url_for("user", name="Admin!"))
+    return render_template("/index.html", content="dsd")
 
 
 if __name__ == "__main__":

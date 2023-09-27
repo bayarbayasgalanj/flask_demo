@@ -1,14 +1,2 @@
-<html>
-  <head>
-    <title>Home page</title>
-  </head>
-  <body>
-    <h1>Home page</h1>
-    <p>{{ content }}</p>
-    <p>{{ r }}</p>
-    {% for x in content %}
-        <p>Hello{{x}}</p>
-        
-    {% endfor %}
-  </body>
-</html>
+{% extends "base.html" %}
+{% block title %} Home page {% endblock %}
